@@ -6,6 +6,11 @@
 
 body{
     background-color: #EB7574;
+    height: 100vh;
+}
+
+.BigWrapper{
+    height: 95%;
 }
 
 .wrapper{
@@ -15,6 +20,9 @@ body{
     border: 5px solid red;
     padding-top: 20px;
     margin: auto;
+    overflow: auto;
+
+
 
 }
 .button{
@@ -60,7 +68,16 @@ li{
     width: 370px;
     overflow: hidden;
 }
-footer {
-  color: #DBEDF3;
-  font-family: sans-serif;
+
+.foot {
+    color: #DBEDF3;
+    font-family: sans-serif;
+    text-align: center;
+    height: 7%;
+    position: relative;
+    top: 64%;
+}
+
+.main{
+    overflow: auto;
 }
